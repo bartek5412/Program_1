@@ -1,0 +1,45 @@
+.input {
+  background-color: rgb(43, 43, 43);
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 30px;
+}
+::placeholder {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none; /* Usuń domyślny styl listy */
+  padding: 0;
+}
+
+li {
+  display: flex; /* Flexbox dla listy */
+  justify-content: space-between; /* Elementy po przeciwnych stronach */
+  align-items: center; /* Wyrównanie w pionie */
+  margin-bottom: 10px; /* Odstęp między elementami listy */
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Dodanie linii oddzielającej zadania */
+}
+
+button {
+  background-color: #ff6b6b; /* Kolor tła przycisku */
+  color: white; /* Kolor tekstu */
+  border: none; /* Usuń obramowanie */
+  padding: 5px 10px; /* Dodaj odstępy wewnętrzne */
+  border-radius: 5px; /* Zaokrąglenie rogów */
+  cursor: pointer; /* Zmień kursor na wskazujący */
+  transition: background-color 0.3s ease; /* Płynne przejście koloru */
+}
+
+button:hover {
+  background-color: #ff4949; /* Zmiana koloru po najechaniu */
+}
+button.save {
+  background-color: darkgray;
+}
+
+button.save:hover {
+  background-color: rgb(88, 86, 86);
+}
